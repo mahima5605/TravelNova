@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Book Your Trip | TravelNova</title>
+    <meta name="description"
+        content="Book your dream vacation with TravelNova. Reserve domestic and international travel packages quickly and securely.">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center">
+                <h1 class="sitename"><span>Travel</span>Nova</h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html#hero">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Tours</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="index.html#pricing">Packages</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="nav-booking">
+                        <a href="booking.html" class="book-btn">Book Now</a>
+                    </li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title" data-aos="fade">
+            <nav class="breadcrumbs">
+                <div class="container">
+                    <ol>
+                        <li><a href="index.html#hero">Home</a></li>
+                        <li class="current">Book Now</li>
+                    </ol>
+                </div>
+            </nav>
+        </div><!-- End Page Title -->
+
+
+        <section class="booking section py-5">
+            <div class="container">
+
+                <div class="section-title text-center mb-5" data-aos="fade-up">
+                    <h2>Book Your Trip</h2>
+                    <div>
+                        <span>Book Your</span>
+                        <span class="description-title">Dream Journey</span>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- Booking Form -->
+                    <div class="col-lg-8" data-aos="fade-right">
+
+                        <div class="booking-form">
+
+                            <form id="bookingForm">
+                                <div class="row">
+
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" placeholder="Full Name" required>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <input type="email" class="form-control" placeholder="Email Address" required>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <input type="tel" class="form-control" placeholder="Phone Number"
+                                            pattern="[0-9]{10}" maxlength="10" required>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <select id="destinationSelect" class="form-select" required>
+                                            <option value="" selected disabled>Select Destination</option>
+                                            <option value="Bali">Bali</option>
+                                            <option value="Dubai">Dubai</option>
+                                            <option value="Switzerland">Switzerland</option>
+                                            <option value="Thailand">Thailand</option>
+                                            <option value="Kashmir">Kashmir</option>
+                                            <option value="Europe">Europe</option>
+                                            <option value="Maldives">Maldives</option>
+                                            <option value="Singapore">Singapore</option>
+                                            <option value="Japan">Japan</option>
+                                            <option value="Vietnam">Vietnam</option>
+                                            <option value="Goa">Goa</option>
+                                            <option value="Ladakh">Ladakh</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <select class="form-select" required>
+                                            <option selected disabled>Select Package</option>
+                                            <option>Weekend Retreat</option>
+                                            <option>International Explorer</option>
+                                            <option>Beach Paradise</option>
+                                            <option>Family Vacation</option>
+                                            <option>Mountain Adventure</option>
+                                            <option>Luxury Honeymoon</option>
+                                            <option>Wildlife Safari</option>
+                                            <option>Spiritual Journey</option>
+                                            <option>Desert Adventure</option>
+                                            <option>Island Retreat</option>
+                                            <option>Snow Adventure</option>
+                                            <option>City Explorer</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <input type="date" class="form-control">
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <input type="number" class="form-control" placeholder="Number of Travelers">
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <textarea class="form-control" rows="5"
+                                            placeholder="Special Requests"></textarea>
+                                    </div>
+                                    <div id="successMessage" class="alert alert-success d-none mt-3">
+                                        ✅ Your booking request has been submitted successfully! We'll contact you
+                                        shortly.
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary px-5">
+                                            Book Now
+                                        </button>
+                                    </div>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Right Card -->
+                    <div class="col-lg-4" data-aos="fade-left">
+
+                        <div class="booking-info">
+
+                            <h4>Why Book With Us?</h4>
+
+                            <ul class="list-unstyled mt-4">
+
+                                <li><i class="bi bi-check-circle-fill"></i> Instant Booking Confirmation</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Best Price Guarantee</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Secure Payment</li>
+                                <li><i class="bi bi-check-circle-fill"></i> 24/7 Customer Support</li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="footer light-background">
+
+        <div class="container">
+            <div class="copyright text-center ">
+                <p>&copy; <span>Copyright</span> <strong class="px-1 sitename">TravelNova</strong> <span>All Rights
+                        Reserved</span>
+                </p><br>
+                <p>Making Every Journey Memorable.</p>
+            </div>
+            <div class="social-links d-flex justify-content-center">
+                <a href="https://twitter.com"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://facebook.com"><i class="bi bi-facebook"></i></a>
+                <a href="https://instagram.com"><i class="bi bi-instagram"></i></a>
+                <a href="https://linkedin.com"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <div class="credits">
+                Designed & Developed by <strong>Mahima Yadav</strong>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
