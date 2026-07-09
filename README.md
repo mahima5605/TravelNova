@@ -67,6 +67,9 @@ TravelNova/
 ├── booking.html
 ├── contact.html
 ├── package-details.html
+├── about.html
+├── pricing.html
+├── tours.html
 │
 ├── assets/
 │   ├── css/
